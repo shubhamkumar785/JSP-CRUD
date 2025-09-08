@@ -26,12 +26,13 @@ This project demonstrates basic **CRUD (Create, Read, Update, Delete)** operatio
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/jsp-crud.git
+    ```
 2. Import the project into your IDE (Eclipse/IntelliJ/NetBeans).
 
 3. Configure your database:
 CREATE DATABASE crud_db;
 USE crud_db;
-
+```sql
 CREATE TABLE users (
     id INT PRIMARY KEY AUTO_INCREMENT,
     username VARCHAR(50),
@@ -39,6 +40,7 @@ CREATE TABLE users (
     address VARCHAR(100),
     mobile VARCHAR(15)
 );
+```
 
 4. Deploy the project on Apache Tomcat and run.
 
