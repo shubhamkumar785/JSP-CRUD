@@ -43,17 +43,20 @@ CREATE TABLE users (
 4. Deploy the project on Apache Tomcat and run.
 
 📂 Project Structure
-   CRUDOperation.jsp/
+CRUDOperation.jsp/
 │
-├── src/main/webapp/
-│   ├── META-INF/
-│   ├── WEB-INF/
-│   ├── index.html        # Home page
-│   ├── log.jsp           # Login page
-│   ├── reg.jsp           # Registration page
-│   ├── update.jsp        # Update user details
-│   ├── uppwd.jsp         # Update password
-│   └── welcome.jsp       # User landing page
+├── src/
+│   └── main/
+│       ├── java/                # Java classes (DBUtil, Servlets, etc.)
+│       └── webapp/
+│           ├── META-INF/
+│           ├── WEB-INF/
+│           ├── index.html       # Home page
+│           ├── log.jsp          # Login page
+│           ├── reg.jsp          # Registration page
+│           ├── update.jsp       # Update user details
+│           ├── uppwd.jsp        # Update password
+│           └── welcome.jsp      # User landing page
 │
 └── README.md
 
