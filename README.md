@@ -45,6 +45,7 @@ CREATE TABLE users (
 4. Deploy the project on Apache Tomcat and run.
 
 📂 Project Structure
+```bash
 CRUDOperation.jsp/
 │
 ├── src/
@@ -61,6 +62,7 @@ CRUDOperation.jsp/
 │           └── welcome.jsp      # User landing page
 │
 └── README.md
+```
 
 🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
